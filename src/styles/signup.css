@@ -1,0 +1,38 @@
+.sidebar-container{
+    width: 30vw;
+    background-color: #0071ff;
+}
+
+.sidebar{
+    padding: 1em 2em;
+}
+
+.sidebar-header{
+    margin: 1em 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 55%;
+}
+
+.sidebar-header > h1  { 
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar > p {
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
+}
+
+.sidebar-container > img{ 
+    margin-top: 2em;
+    width: 100%;
+}
