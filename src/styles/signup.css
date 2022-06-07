@@ -36,3 +36,88 @@
     margin-top: 2em;
     width: 100%;
 }
+
+.form-container{
+    padding: 3rem 4rem;
+}
+
+.form-container > h1.title { 
+    color: #496581;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+.form-container > p.subtitle{
+    color: #496581;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 4rem;
+}
+
+.form-container > p.description{
+    color: #abaeb4;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    display: block;
+    margin: 1rem 0;
+    font-size: small;
+    color: #496581;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+input:not(input[type="checkbox"]){
+    width: 20rem;
+    padding: 0.5rem;
+    border: #abaeb4 solid 0.1rem;
+    border-radius: 3px;
+}
+
+.checkbox-container{
+    margin: 2rem 0;
+}
+
+.checkbox{
+    margin-top: 1rem;
+    display: flex;
+    font-size: small;
+    color: #496581;
+    align-items: center;
+}
+
+.checkbox > p{
+    margin-left: 1em;
+    text-align: center;
+}
+
+.checkbox > input{
+    margin: auto 0;
+}
+
+.formSubmitButton{
+    background-color: #0170fd;
+    color: white;
+    padding: 0.5rem 1rem; 
+    border-radius: 3px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.checkAccount{ 
+    margin-top: 1rem;
+}
+
+.checkAccount > button{
+    color: #0170fd;
+    background: none;
+    cursor: pointer;
+}
