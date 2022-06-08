@@ -1,6 +1,8 @@
 .sidebar-container{
     width: 30vw;
     background-color: #0071ff;
+    position: fixed;
+    left: 0;
 }
 
 .sidebar{
@@ -39,6 +41,9 @@
 
 .form-container{
     padding: 3rem 4rem;
+    width: 70vw;
+    position: absolute;   
+    left: 30%;
 }
 
 .form-container > h1.title { 
@@ -65,6 +70,7 @@
 .form-row{
     display: flex;
     justify-content: space-between;
+    width: 50vw;
 }
 
 label{
@@ -120,4 +126,11 @@ input:not(input[type="checkbox"]){
     color: #0170fd;
     background: none;
     cursor: pointer;
+}
+
+.error{
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.3em 0;   
+    color: #ff3300;
 }
